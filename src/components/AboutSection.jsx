@@ -28,7 +28,10 @@ export default function AboutSection() {
             <h3 className="text-xl  font-light text-gray-600">We Stand with Farmers. And the Future.</h3>
             <Link href="/contact-us">
               <div className="inline-block border-2 border-yellow-400 text-sm text-gray-700  py-2 px-6 sm:px-8 rounded-full hover:bg-yellow-400 hover:text-white transition duration-300 cursor-pointer">
-                MORE ABOUT
+                MORE ABOUT 
+              </div>
+              <div className="inline-block border-2 border-yellow-400 text-sm text-gray-700  py-2 px-6 sm:px-8 rounded-full hover:bg-yellow-400 hover:text-white transition duration-300 cursor-pointer">
+                MORE ABOUT 
               </div>
             </Link>
           </div>
