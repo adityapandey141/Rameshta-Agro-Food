@@ -30,9 +30,6 @@ export default function AboutSection() {
               <div className="inline-block border-2 border-yellow-400 text-sm text-gray-700  py-2 px-6 sm:px-8 rounded-full hover:bg-yellow-400 hover:text-white transition duration-300 cursor-pointer">
                 MORE ABOUT 
               </div>
-              <div className="inline-block border-2 border-yellow-400 text-sm text-gray-700  py-2 px-6 sm:px-8 rounded-full hover:bg-yellow-400 hover:text-white transition duration-300 cursor-pointer">
-                MORE ABOUT 
-              </div>
             </Link>
           </div>
 
