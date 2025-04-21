@@ -60,6 +60,12 @@ const Header = () => {
           <Link href="/" className="text-yellow-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             HOME
           </Link>
+          <Link href="#about" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+           ABOUT
+          </Link>
+          <Link href="#whyus" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+            WHY US
+          </Link>
           <Link href="/contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             CONTACT
           </Link>
