@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-
 import Founder4 from '../assets/Founder4.jpg';
 import Founder5 from '../assets/Founder5.jpg';
 
