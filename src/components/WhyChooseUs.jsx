@@ -33,7 +33,7 @@ const offerCategories = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16 px-4 max-w-7xl mx-auto ">
+    <section className="py-16 px-4 max-w-7xl mx-auto " id='whyus'>
       <div className="text-center mb-12">
         <h2 className="text-3xl font-bold mb-4">
           <span className="text-gray-800">The Rameshta Advantage</span>

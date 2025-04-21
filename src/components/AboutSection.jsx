@@ -7,7 +7,7 @@ import TImage from "../assets/TImage.jpg";
 
 export default function AboutSection() {
   return (
-    <section className="w-full relative py-12 sm:py-16 lg:py-20 overflow-hidden">
+    <section className="w-full relative py-12 sm:py-16 lg:py-20 overflow-hidden " id="about">
   
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
         <Image
