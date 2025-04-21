@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
 import Founder4 from '../assets/Founder4.jpg';
 import Founder5 from '../assets/Founder5.jpg';
 
@@ -33,40 +32,31 @@ const Founders = () => {
           </p>
         </div>
 
-  <div className="relative group transition-transform duration-500 hover:scale-[1.01] hover:rotate-[0.2deg]">
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-    {teamMembers.map((member, index) => (
-      <motion.div
-        key={index}
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: index * 0.3, duration: 0.6 }}
-        className="relative group/card rounded-lg shadow-lg bg-white p-6 hover:shadow-2xl hover:scale-105 transition-transform duration-300 flex flex-col items-center text-center"
-      >
-        <div className="w-full h-80 relative rounded-lg overflow-hidden mb-4 bg-white">
-          <Image
-            src={member.image}
-            alt={member.name}
-            fill
-            className="object-contain transition-transform duration-300 group-hover/card:scale-105 rounded-lg"
-          />
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          {teamMembers.map((member, index) => (
+            <div key={index} className="text-center group">
+              <div className="w-full h-80 relative rounded-lg overflow-hidden mb-4 bg-white">
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  className="object-contain transition-transform duration-300 group-hover:scale-105 rounded-lg"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors duration-300">
+                {member.name}
+              </h3>
+              <p className="relative inline-block text-yellow-600 font-semibold mb-2 before:absolute before:inset-0 before:-z-10 before:bg-yellow-100 before:rounded before:scale-110 before:blur-sm">
+                {member.title}
+              </p>
+              <p className="text-gray-600 text-sm text-center max-w-md mx-auto">
+                {member.bio}
+              </p>
+            </div>
+          ))}
         </div>
-        <h3 className="text-2xl font-bold text-gray-800 group-hover/card:text-yellow-600 transition-colors duration-300">
-          {member.name}
-        </h3>
-        <p className="relative inline-block text-yellow-600 font-semibold mb-2 before:absolute before:inset-0 before:-z-10 before:bg-yellow-100 before:rounded before:scale-110 before:blur-sm">
-          {member.title}
-        </p>
-        <p className="text-gray-600 text-sm text-center max-w-md mx-auto">
-          {member.bio}
-        </p>
-      </motion.div>
-    ))}
-  </div>
-</div>
-
-</div>
-</section>
+      </div>
+    </section>
   );
 };
 

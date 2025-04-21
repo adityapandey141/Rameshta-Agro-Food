@@ -1,5 +1,5 @@
 .animatedImage{
-    background-image: url(https://ninetheme.com/themes/agro/wp-content/uploads/2019/02/special_offer_text_bg.jpg);
+    background-image: url("../assets/special.jpg");
     background-clip: text;
     text-fill-color: transparent;
     -webkit-background-clip: text;
