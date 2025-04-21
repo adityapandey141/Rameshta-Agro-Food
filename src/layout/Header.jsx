@@ -52,7 +52,7 @@ const Header = () => {
             alt="Logo"
             width={90}
             height={90}
-            className="object-contain mr-2"
+            className="object-contain "
           />
         </Link>
 
@@ -60,16 +60,16 @@ const Header = () => {
           <Link href="/" className="text-yellow-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             HOME
           </Link>
-          <Link href="/about-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="about-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             ABOUT US
           </Link>
-          <Link href="/why-choose" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="why-choose" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             WHY CHOOSE
           </Link>
-          <Link href="/founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             FOUNDERS
           </Link>
-          <Link href="/contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             CONTACT
           </Link>
         </nav>
