@@ -10,11 +10,7 @@ import DietFood from "../assets/DietFood.jpg";
 const BlogPosts = [
   {
     id: 1,
-<<<<<<< HEAD
-    date: { day: 1, month: 'Dec' },
-=======
     date: { day: 1},
->>>>>>> d2ad513a5cdeb6196f0e010751bd51cb33a99cb3
     title: 'Training & Knowledge Sharing',
     excerpt: 'We empower farmers through practical training programs that make transitioning to organic farming seamless and effective. Our experts share both traditional wisdom and modern sustainable practices.',
     image: diet,
@@ -22,11 +18,7 @@ const BlogPosts = [
   },
   {
     id: 2,
-<<<<<<< HEAD
-    date: { day: 2, month: 'Dec' },
-=======
-    date: { day: 2 },
->>>>>>> d2ad513a5cdeb6196f0e010751bd51cb33a99cb3
+    date: { day: 2, },
     title: 'Quality Resources & Infrastructure',
     excerpt: 'From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need. Our support spans the entire journey, from soil preparation to storage solutions that preserve freshness and quality.',
     image: OrganicFood,
@@ -34,11 +26,7 @@ const BlogPosts = [
   },
   {
     id: 3,
-<<<<<<< HEAD
-    date: { day: 3, month: 'Dec' },
-=======
-    date: { day: 3},
->>>>>>> d2ad513a5cdeb6196f0e010751bd51cb33a99cb3
+    date: { day: 3, },
     title: 'Fair Trade & Market Access',
     excerpt: 'We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices for their hard work. Our transparent pricing mechanisms provide stability and encourage long-term commitment to organic practices.',
     image: DietFood,
