@@ -60,6 +60,15 @@ const Header = () => {
           <Link href="/" className="text-yellow-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             HOME
           </Link>
+          <Link href="/about-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+            ABOUT US
+          </Link>
+          <Link href="/why-choose" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+            WHY CHOOSE
+          </Link>
+          <Link href="/founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+            FOUNDERS
+          </Link>
           <Link href="/contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             CONTACT
           </Link>
@@ -99,7 +108,15 @@ const Header = () => {
             <Link href="/" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
               HOME
             </Link>
-
+            <Link href="/about-us" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
+              ABOUT US
+            </Link>
+            <Link href="/why-choose" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
+              WHY CHOOSE
+            </Link>
+            <Link href="/founder" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
+              FOUNDERS
+            </Link>
             <Link href="/contact-us" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded" onClick={() => setIsMenuOpen(false)}>
               CONTACT
             </Link>
