@@ -25,8 +25,8 @@ const HeroSection = () => {
         
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-6">
-          ORGANIC STARTS HERE
-          WITH US
+          ORGANIC STARTS HERE.
+          WITH US.
           WITH YOU.
           </h1>
 

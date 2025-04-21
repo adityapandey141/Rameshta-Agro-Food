@@ -63,6 +63,15 @@ const Header = () => {
           <Link href="/contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             CONTACT
           </Link>
+          <Link href="/about-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+            ABOUT US
+          </Link>
+          <Link href="/why-choose" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+            WHY CHOOSE
+          </Link>
+          <Link href="/founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+            FOUNDERS
+          </Link>
         </nav>
 
         <div className="hidden md:block">
