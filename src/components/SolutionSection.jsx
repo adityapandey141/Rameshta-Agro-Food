@@ -1,40 +1,43 @@
 "use client";
 
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import diet from "../assets/diet.jpg";
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import diet from "../assets/Diet.jpg";
 import OrganicFood from "../assets/OrganicFood.jpg";
 import DietFood from "../assets/DietFood.jpg";
 
 const BlogPosts = [
   {
     id: 1,
-    date: { day: 3, month: 'Dec' },
-    categories: ['DIET', 'TIPS & GUIDES'],
-    title: 'Training & Knowledge Sharing',
-    excerpt: 'We empower farmers through practical training programs that make transitioning to organic farming seamless and effective. Our experts share both traditional wisdom and modern sustainable practices.',
+    date: { day: 3, month: "Dec" },
+    categories: ["DIET", "TIPS & GUIDES"],
+    title: "Training & Knowledge Sharing",
+    excerpt:
+      "We empower farmers through practical training programs that make transitioning to organic farming seamless and effective. Our experts share both traditional wisdom and modern sustainable practices.",
     image: diet,
-    slug: 'tips-for-ripening-fruit'
+    slug: "tips-for-ripening-fruit",
   },
   {
     id: 2,
-    date: { day: 3, month: 'Dec' },
-    categories: ['ORGANIC FOOD', 'TIPS & GUIDES'],
-    title: 'Quality Resources & Infrastructure',
-    excerpt: 'From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need. Our support spans the entire journey, from soil preparation to storage solutions that preserve freshness and quality.',
+    date: { day: 3, month: "Dec" },
+    categories: ["ORGANIC FOOD", "TIPS & GUIDES"],
+    title: "Quality Resources & Infrastructure",
+    excerpt:
+      "From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need. Our support spans the entire journey, from soil preparation to storage solutions that preserve freshness and quality.",
     image: OrganicFood,
-    slug: 'health-benefits-raw-food'
+    slug: "health-benefits-raw-food",
   },
   {
     id: 3,
-    date: { day: 2, month: 'Dec' },
-    categories: ['DIET', 'ORGANIC FOOD'],
-    title: 'Fair Trade & Market Access',
-    excerpt: 'We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices for their hard work. Our transparent pricing mechanisms provide stability and encourage long-term commitment to organic practices.',
+    date: { day: 2, month: "Dec" },
+    categories: ["DIET", "ORGANIC FOOD"],
+    title: "Fair Trade & Market Access",
+    excerpt:
+      "We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices for their hard work. Our transparent pricing mechanisms provide stability and encourage long-term commitment to organic practices.",
     image: DietFood,
-    slug: 'superfoods-you-should-be-eating'
-  }
+    slug: "superfoods-you-should-be-eating",
+  },
 ];
 
 const SolutionSection = () => {
@@ -77,7 +80,9 @@ const SolutionSection = () => {
                 <div className="flex flex-wrap text-sm sm:text-lg mb-4">
                   {post.categories.map((category, index) => (
                     <React.Fragment key={category}>
-                      <span className="text-yellow-500 hover:text-green-500">{category}</span>
+                      <span className="text-yellow-500 hover:text-green-500">
+                        {category}
+                      </span>
                       {index < post.categories.length - 1 && (
                         <span className="mx-2 text-yellow-500">/</span>
                       )}

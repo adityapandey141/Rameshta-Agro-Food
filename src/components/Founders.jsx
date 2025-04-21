@@ -1,9 +1,9 @@
 "use client";
-import React from 'react';
-import Image from 'next/image';
-import { motion } from 'framer-motion';
-import Founder4 from '../assets/founder4.jpg';
-import Founder5 from '../assets/founder5.jpg';
+import React from "react";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import Founder4 from "../assets/Founder4.jpg";
+import Founder5 from "../assets/Founder5.jpg";
 
 const Founders = () => {
   const teamMembers = [
@@ -11,13 +11,13 @@ const Founders = () => {
       name: "Mukeshkumar",
       title: "Mukeshkumar Natvarlal Fatepura (Director)",
       image: Founder4,
-      bio: "Mukeshkumar leads Rameshta with a mission to rebuild Indian agriculture. He’s a hands-on change-maker, driving innovation, farmer empowerment, and strategic growth."
+      bio: "Mukeshkumar leads Rameshta with a mission to rebuild Indian agriculture. He’s a hands-on change-maker, driving innovation, farmer empowerment, and strategic growth.",
     },
     {
       name: "Sajjanben",
       title: "Sajjanben Amaratbhai Parmar (Director)",
       image: Founder5,
-      bio: "She champions rural upliftment and fair trade, ensuring that sustainability never comes at the cost of the farmer. Her leadership is grounded in purpose and backed by action."
+      bio: "She champions rural upliftment and fair trade, ensuring that sustainability never comes at the cost of the farmer. Her leadership is grounded in purpose and backed by action.",
     },
   ];
 
