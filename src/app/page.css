@@ -27,7 +27,3 @@
         background-position: 50% 65%;
     }
 }
-
-html , body{
-    scroll-behavior: smooth !important;
-}
