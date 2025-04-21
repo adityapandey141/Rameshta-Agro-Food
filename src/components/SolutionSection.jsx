@@ -18,7 +18,7 @@ const BlogPosts = [
   },
   {
     id: 2,
-    date: { day: 2 },
+    date: { day: 2, },
     title: 'Quality Resources & Infrastructure',
     excerpt: 'From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need. Our support spans the entire journey, from soil preparation to storage solutions that preserve freshness and quality.',
     image: OrganicFood,
@@ -26,7 +26,7 @@ const BlogPosts = [
   },
   {
     id: 3,
-    date: { day: 3},
+    date: { day: 3, },
     title: 'Fair Trade & Market Access',
     excerpt: 'We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices for their hard work. Our transparent pricing mechanisms provide stability and encourage long-term commitment to organic practices.',
     image: DietFood,
