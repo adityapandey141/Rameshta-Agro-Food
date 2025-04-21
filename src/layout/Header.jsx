@@ -52,7 +52,7 @@ const Header = () => {
             alt="Logo"
             width={90}
             height={90}
-            className="object-contain mr-2"
+            className="object-contain "
           />
         </Link>
 
@@ -60,16 +60,16 @@ const Header = () => {
           <Link href="/" className="text-yellow-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             HOME
           </Link>
-          <Link href="/about-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="about-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             ABOUT US
           </Link>
-          <Link href="/why-choose" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="why-choose" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             WHY CHOOSE
           </Link>
-          <Link href="/founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             FOUNDERS
           </Link>
-          <Link href="/contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <Link href="contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             CONTACT
           </Link>
         </nav>
@@ -108,19 +108,19 @@ const Header = () => {
             <Link href="/" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
               HOME
             </Link>
-            <Link href="/about-us" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
+            <Link href="about-us" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
               ABOUT US
             </Link>
-            <Link href="/why-choose" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
+            <Link href="why-choose" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
               WHY CHOOSE
             </Link>
-            <Link href="/founder" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
+            <Link href="founder" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
               FOUNDERS
             </Link>
-            <Link href="/contact-us" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded" onClick={() => setIsMenuOpen(false)}>
+            <Link href="contact-us" className="block px-3 py-2 text-gray-800 hover:bg-gray-200 rounded" onClick={() => setIsMenuOpen(false)}>
               CONTACT
             </Link>
-            <Link href="/contact-us" className="block px-3 py-2 bg-yellow-400 text-gray-800 hover:bg-yellow-500 rounded text-center font-medium mt-4 transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
+            <Link href="contact-us" className="block px-3 py-2 bg-yellow-400 text-gray-800 hover:bg-yellow-500 rounded text-center font-medium mt-4 transition-colors duration-200" onClick={() => setIsMenuOpen(false)}>
               GET IN TOUCH
             </Link>
           </div>
