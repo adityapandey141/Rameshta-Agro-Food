@@ -84,8 +84,8 @@ const ContactForm = () => {
             <FaMapMarkerAlt className="text-2xl" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-indigo-900">Address Location</h3>
-            <p className="text-gray-700 text-sm md:text-base">
+            <h3 className="text-2xl font-bold text-indigo-900">Address Location</h3>
+            <p className="text-gray-700 text-lg">
               B-10, Anand Dham Residency,<br />
               Paliyad Road, Botad – 364710,<br />
               Gujarat, India
@@ -98,8 +98,8 @@ const ContactForm = () => {
             <FaPhoneAlt className="text-2xl" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-indigo-900">Phone Number</h3>
-            <p className="text-gray-700 text-sm md:text-base">+91 9824670208</p>
+            <h3 className="text-2xl font-bold text-indigo-900">Phone Number</h3>
+            <p className="text-gray-700 text-lg">+91 9824670208</p>
           </div>
         </div>
 
@@ -108,16 +108,16 @@ const ContactForm = () => {
             <FaEnvelope className="text-2xl" />
           </div>
           <div>
-            <h3 className="text-xl font-bold text-indigo-900">Email Address</h3>
-            <p className="text-gray-700 text-sm md:text-base">rameshtaorganic@gmail.com </p>
+            <h3 className="text-2xl font-bold text-indigo-900">Email Address</h3>
+            <p className="text-gray-700 text-lg">rameshtaorganic@gmail.com </p>
           </div>
         </div>
       </div>
 
     
       <div className="mb-8 text-center md:text-left">
-        <h2 className="text-2xl font-bold text-lime-600 mb-2">Let’s Build Something Organic</h2>
-        <p className="text-gray-600 text-lg">
+        <h2 className="text-4xl font-bold text-lime-600 mb-2">Let’s Build Something Organic</h2>
+        <p className="text-gray-600 text-xl">
           No bots. No auto-replies. Just real people ready to chat. Drop your message below and we’ll get back to you soon.
         </p>
       </div>
@@ -146,27 +146,27 @@ const ContactForm = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
-                  <label htmlFor="name" className="block mb-2">Name</label>
+                  <label htmlFor="name" className="block mb-2 text-xl">Name</label>
                   <input
                     type="text"
                     id="name"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
-                    className="w-full p-2 border border-gray-300 rounded bg-gray-100"
+                    className="w-full p-2 border border-gray-300 rounded bg-gray-100 text-lg"
                     placeholder="Name"
                     required
                   />
                 </div>
                 <div>
-                  <label htmlFor="phone" className="block mb-2">Phone</label>
+                  <label htmlFor="phone" className="block mb-2 text-xl">Phone</label>
                   <input
                     type="tel"
                     id="phone"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
-                    className="w-full p-2 border border-gray-300 rounded bg-gray-100"
+                    className="w-full p-2 border border-gray-300 rounded bg-gray-100 text-lg"
                     placeholder="Phone"
                     required
                   />
@@ -175,14 +175,14 @@ const ContactForm = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 <div>
-                  <label htmlFor="email" className="block mb-2">Email</label>
+                  <label htmlFor="email" className="block mb-2 text-xl">Email</label>
                   <input
                     type="email"
                     id="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
-                    className="w-full p-2 border border-gray-300 rounded bg-gray-100"
+                    className="w-full p-2 border border-gray-300 rounded bg-gray-100 text-lg"
                     placeholder="Email"
                     required
                   />
@@ -190,14 +190,14 @@ const ContactForm = () => {
               </div>
 
               <div className="mb-4">
-                <label htmlFor="message" className="block mb-2">Message</label>
+                <label htmlFor="message" className="block mb-2 text-xl">Message</label>
                 <textarea
                   id="message"
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
                   rows={4}
-                  className="w-full p-2 border border-gray-300 rounded bg-gray-100"
+                  className="w-full p-2 border border-gray-300 rounded bg-gray-100 text-lg"
                   placeholder="Message"
                   required
                 />
@@ -210,7 +210,7 @@ const ContactForm = () => {
               >
                 {status.submitting ? (
                   <>
-                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-black" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-black " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                     </svg>
@@ -218,7 +218,7 @@ const ContactForm = () => {
                   </>
                 ) : (
                   <>
-                    <IoIosSend className="text-2xl" /> Send & Sow
+                    <IoIosSend className="text-3xl" /> Send & Sow
                   </>
                 )}
               </button>

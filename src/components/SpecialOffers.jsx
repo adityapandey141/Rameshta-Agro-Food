@@ -21,8 +21,9 @@ const SpecialOffers = () => {
     <section className="py-12 sm:py-16 px-4 sm:px-6 md:px-8 lg:px-10 w-full ">
      
       <div className="text-center mb-10 sm:mb-12">
-        <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3">
-        REAL FOOD. ROOTED IN PURPOSE.
+        <h2 className="text-3xl  font-bold text-gray-800 mb-3">
+        REAL FOOD. ROOTED 
+        IN PURPOSE.
         </h2>
         <p className="text-gray-600 text-lg font-semibold max-w-2xl mx-auto">
           Every grain, every veggie, every spice — grown with care and a commitment to clean, chemical-free farming.
@@ -43,7 +44,7 @@ const SpecialOffers = () => {
               />
             </div>
            
-            <h3 className="text-xl font-semibold text-gray-700">{category.title}</h3>
+            <h3 className="text-lg  text-gray-700">{category.title}</h3>
           </div>
         ))}
       </div>
