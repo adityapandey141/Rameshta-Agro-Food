@@ -1,8 +1,8 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
-import Founder4 from '../assets/Founder4.jpg';
-import Founder5 from '../assets/Founder5.jpg';
+import Founder4 from "../assets/Founder4.jpg";
+import Founder5 from "../assets/Founder5.jpg";
 
 const Founders = () => {
   const teamMembers = [
@@ -27,7 +27,7 @@ const Founders = () => {
           <h2 className="text-3xl font-bold mb-2 text-gray-800">
             Meet the Strategic Minds
           </h2>
-          <p className="text-gray-500 max-w-2xl mx-auto">
+          <p className="text-gray-500  text-lg max-w-2xl mx-auto">
             Leaders Who Don’t Sit at Desks But Walk the Fields
           </p>
         </div>
@@ -46,10 +46,10 @@ const Founders = () => {
               <h3 className="text-2xl font-bold text-gray-800 group-hover:text-yellow-600 transition-colors duration-300">
                 {member.name}
               </h3>
-              <p className="relative inline-block text-yellow-600 font-semibold mb-2 before:absolute before:inset-0 before:-z-10 before:bg-yellow-100 before:rounded before:scale-110 before:blur-sm">
+              <p className=" text-xl relative inline-block text-yellow-600 mb-2 before:absolute before:inset-0 before:-z-10 before:bg-yellow-100 before:rounded before:scale-110 before:blur-sm">
                 {member.title}
               </p>
-              <p className="text-gray-600 text-sm text-center max-w-md mx-auto">
+              <p className="text-gray-600 text-base  text-center max-w-md mx-auto">
                 {member.bio}
               </p>
             </div>

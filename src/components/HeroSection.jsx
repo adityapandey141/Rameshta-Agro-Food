@@ -30,7 +30,7 @@ const HeroSection = () => {
           WITH YOU.
           </h1>
 
-          <p className="mb-8 text-lg max-w-2xl">
+          <p className="mb-8 text-xl max-w-2xl">
             At Rameshta Agro, we back the farmers, skip the middlemen, and make organic farming a win for everyone. Cleaner soil. Healthier food. Fairer trade.
           </p>
           <Link href="/contact-us">

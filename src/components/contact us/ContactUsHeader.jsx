@@ -21,7 +21,7 @@ const ContactUsHeader = () => {
             <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold leading-tight mt-4 sm:mt-6">
               CONTACT US
             </h1>
-            <p className="mt-4 text-base sm:text-lg  max-w-xl mx-auto">
+            <p className="mt-4 text-base sm:text-2xl  max-w-xl mx-auto">
               The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
               as opposed to using "Content here, content here", making it look like readable English.
             </p>

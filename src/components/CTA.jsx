@@ -26,7 +26,7 @@ const CTA = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl sm:text-4xl font-bold text-yellow-green-500">
+            <h1 className="text-3xl  font-bold text-yellow-green-500">
               <span className="text-lime-500">Ready to Dig In?</span>{" "}
             </h1>
             <p className="text-gray-600 mt-4 max-w-md text-lg mx-auto md:mx-0">

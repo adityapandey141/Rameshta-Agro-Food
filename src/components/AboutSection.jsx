@@ -49,7 +49,7 @@ export default function AboutSection() {
 
          
           <div className="w-full lg:w-1/3">
-            <p className="text-gray-700  text-lg leading-relaxed text-center lg:text-left">
+            <p className="text-gray-700  text-base leading-relaxed text-center lg:text-left">
               At Rameshta, we’re not just another agri-company; we’re a movement that puts the farmer first. We roll up our sleeves, walk into the fields, and build organically from the ground up. From fair pricing to end-to-end support, we do the hard work so our farmers can thrive — and so can your plate.
             </p>
           </div>
