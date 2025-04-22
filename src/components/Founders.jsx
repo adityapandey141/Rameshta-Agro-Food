@@ -24,10 +24,10 @@ const Founders = () => {
     <section className="py-16 relative overflow-hidden bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-2 text-gray-800">
+          <h2 className="text-3xl font-bold mb-2 text-black">
             Meet the Strategic Minds
           </h2>
-          <p className="text-gray-500  text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-xl font-semibold max-w-2xl mx-auto">
             Leaders Who Don’t Sit at Desks But Walk the Fields
           </p>
         </div>

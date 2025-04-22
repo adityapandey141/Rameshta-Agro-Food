@@ -21,7 +21,7 @@ const SpecialOffers = () => {
     <section className="py-12 sm:py-16 px-4 sm:px-6 md:px-8 lg:px-10 w-full ">
      
       <div className="text-center mb-10 sm:mb-12">
-        <h2 className="text-3xl  font-bold text-gray-800 mb-3">
+        <h2 className="text-3xl  font-bold text-black mb-3">
         REAL FOOD. ROOTED 
         IN PURPOSE.
         </h2>
