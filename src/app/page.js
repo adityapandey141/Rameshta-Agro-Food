@@ -6,9 +6,9 @@ import SolutionSection from '@/components/SolutionSection'
 import WhyChooseUs from '@/components/WhyChooseUs'
 import FoundersSection from '@/components/Founders'
 import CTA from '@/components/CTA'
-import TaglineSection from '@/components/TaglineSection'
+// import TaglineSection from '@/components/TaglineSection'
 
-import  './page.css';
+// import  './page.css';
 
 
 
@@ -22,7 +22,7 @@ const page = () => {
     <div>
     <HeroSection/>
     <SpecialOffers/>
-    <TaglineSection/>
+    {/* <TaglineSection/> */}
     <AboutSection/>
     <SolutionSection/>
     <WhyChooseUs/>

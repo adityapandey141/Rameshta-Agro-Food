@@ -24,8 +24,8 @@ export default function AboutSection() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-10 lg:gap-12">
 
           <div className="w-full lg:w-1/3 text-center lg:text-left space-y-6 sm:space-y-8">
-            <h2 className="text-3xl  font-bold text-gray-800">WHO WE ARE</h2>
-            <h3 className="text-xl  font-light text-gray-600">We Stand with Farmers. And the Future.</h3>
+            <h2 className="text-3xl  font-bold text-black">WHO WE ARE</h2>
+            <h3 className="text-gray-600 text-xl font-semibold ">We Stand with Farmers. And the Future.</h3>
             <Link href="/contact-us">
               <div className="inline-block border-2 border-yellow-400 text-sm text-gray-700  py-2 px-6 sm:px-8 rounded-full hover:bg-yellow-400 hover:text-white transition duration-300 cursor-pointer">
                 MORE ABOUT 

@@ -26,8 +26,8 @@ const CTA = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl  font-bold text-yellow-green-500">
-              <span className="text-lime-500">Ready to Dig In?</span>{" "}
+            <h1 className="text-3xl  font-bold text-black">
+              Ready to Dig In?
             </h1>
             <p className="text-gray-600 mt-4 max-w-md text-lg mx-auto md:mx-0">
               Whether you’re looking to farm better, buy better, or invest in something that matters, we’re here.
