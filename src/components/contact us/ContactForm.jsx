@@ -136,7 +136,7 @@ const ContactForm = () => {
               <p>Thank you for contacting us. We will get back to you soon.</p>
               <button
                 className="mt-3 bg-green-500 text-white py-1 px-4 rounded hover:bg-green-600 transition"
-                onClick={() => setStatus({ submitting: true, submitted: true, error: null })}
+                onClick={() => setStatus({ submitting: true, submitted: false, error: null })}
               >
                 Send another message
               </button>
