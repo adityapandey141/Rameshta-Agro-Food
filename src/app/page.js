@@ -8,7 +8,7 @@ import FoundersSection from '@/components/Founders'
 import CTA from '@/components/CTA'
 // import TaglineSection from '@/components/TaglineSection'
 
-// import  './page.css';
+import  './page.css';
 
 
 

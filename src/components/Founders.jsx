@@ -21,7 +21,7 @@ const Founders = () => {
   ];
 
   return (
-    <section className="py-16 relative overflow-hidden bg-gray-50">
+    <section className="py-16 relative overflow-hidden bg-gray-50 " id='founder'>
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold mb-2 text-black">

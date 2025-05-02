@@ -76,7 +76,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full mb-[50px] container mx-auto p-4">
+    <div className="w-full mb-[50px] max-w-7xl mx-auto p-4">
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
         <div className="flex items-start mb-6 md:mb-0">

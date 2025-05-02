@@ -19,7 +19,7 @@ export default function AboutSection() {
         />
       </div>
 
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
     
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-10 lg:gap-12">
 
@@ -34,7 +34,7 @@ export default function AboutSection() {
           </div>
 
           <div className="w-full lg:w-1/3 flex justify-center">
-            <div className="border-4 border-yellow-400 p-2 rounded-md">
+            <div className="border-4 border-yellow-400  rounded-md">
               <div className="relative w-56 h-48 sm:w-72 sm:h-64 lg:w-80 lg:h-72">
                 <Image
                   src={WHOWEARE}
