@@ -10,7 +10,7 @@ import ReadytoDig from "../assets/ReadytoDig.jpg";
 const CTA = () => {
   return (
     <div className="relative w-full bg-gray-100 flex items-center overflow-hidden">
-      <div className="container mx-auto px-4 py-12 sm:py-16 md:py-20 flex flex-col md:flex-row items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 py-12 sm:py-16 md:py-20 flex flex-col md:flex-row items-center justify-between">
 
         <div className="md:w-1/2 space-y-6 z-10 text-center md:text-left">
           <div className="w-30 h-30 flex items-center justify-center p-4 mx-auto md:mx-0">

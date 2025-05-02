@@ -45,7 +45,7 @@ const Header = () => {
 
   return (
     <header className={`sticky top-0 w-full z-30 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-white shadow-sm py-3'}`}>
-      <div className="container mx-auto px-4 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
             src={AgroLogo}
@@ -60,15 +60,15 @@ const Header = () => {
           <Link href="/" className="text-yellow-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             HOME
           </Link>
-          <Link href="about-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          <a href="#about" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             ABOUT US
-          </Link>
-          <Link href="why-choose" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          </a>
+          <a href="#whyus" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             WHY CHOOSE
-          </Link>
-          <Link href="founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
+          </a>
+          <a href="#founder" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             FOUNDERS
-          </Link>
+          </a>
           <Link href="contact-us" className="text-gray-500 hover:text-[#FF6900] font-bold transition-colors duration-200">
             CONTACT
           </Link>
