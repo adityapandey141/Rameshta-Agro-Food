@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import HomeImages from "../assets/HomeImages.jpg";
+import ORGANICLOGO from "../assets/ORGANICLOGO.jpg";
 
 const HeroSection = () => {
   return (
@@ -10,7 +10,7 @@ const HeroSection = () => {
      
       <div className="absolute inset-0 z-0">
         <Image
-          src={HomeImages}
+          src={ORGANICLOGO}
           alt="Agro"
           fill
           className="object-cover"

@@ -2,31 +2,30 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Livestock from '../assets/Livestock.png';
-import Garden from '../assets/Garden.png';
-import FreshFruit from '../assets/FreshFruit.png';
-import Vegetables from '../assets/Vegetables.png';
-
+import CommitmenttoSustainability from '../assets/CommitmenttoSustainability.svg';
+import EndSupport from '../assets/EndSupport.svg';
+import QualityAssurance from '../assets/QualityAssurance.svg';
+import CommunityEmpowerment from '../assets/CommunityEmpowerment.svg';
 
 const offerCategories = [
   {
     title: "Commitment to Sustainability",
-    icon: Livestock,
+    icon: CommitmenttoSustainability,
     description: "Every decision we make considers its impact on soil health, biodiversity, and the environment. Our practices restore nature's balance rather than depleting it.",
   },
   {
     title: "End-to-End Support",
-    icon: Garden,
+    icon: EndSupport,
     description: "We stand with our farmers throughout their organic journey, providing assistance from seed selection to market linkage, ensuring success at every step."
   },
   {
     title: "Quality Assurance",
-    icon: FreshFruit,
+    icon: QualityAssurance,
     description: "Our organic products boast 80-100% germination rates and meet the highest standards of purity and nutrition. We never compromise on quality.",
   },
   {
     title: "Community Empowerment",
-    icon: Vegetables,
+    icon: CommunityEmpowerment,
     description: "With an impressive 80-95% farmer retention rate, we're building lasting relationships based on trust, fair treatment, and shared success.",
   },
 ];

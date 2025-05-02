@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import images1 from '../assets/images1.png'; 
+import WHOWEARE from '../assets/WHOWEARE.jpg'; 
 import TImage from "../assets/TImage.jpg";
 
 export default function AboutSection() {
@@ -37,7 +37,7 @@ export default function AboutSection() {
             <div className="border-4 border-yellow-400 p-2 rounded-md">
               <div className="relative w-56 h-48 sm:w-72 sm:h-64 lg:w-80 lg:h-72">
                 <Image
-                  src={images1}
+                  src={WHOWEARE}
                   alt="Wheat grains in burlap sack with wheat stalks"
                   fill
                   className="object-cover rounded-md"
