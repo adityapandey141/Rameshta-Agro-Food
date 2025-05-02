@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import AgroLogo from "../assets/AgroLogo.jpg";
-import AppleBanner from "../assets/AppleBanner.png"; 
+import ReadytoDig from "../assets/ReadytoDig.jpg"; 
 
 const CTA = () => {
   return (
@@ -45,8 +45,8 @@ const CTA = () => {
 
         <div className="w-full md:w-1/2 relative h-[300px] md:h-auto">
           <Image
-            src={AppleBanner}
-            alt="Apple"
+            src={ReadytoDig}
+            alt="dig"
             className="object-contain rounded-lg w-full h-full"  
             priority
           />

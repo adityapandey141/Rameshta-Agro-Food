@@ -1,20 +1,20 @@
 import Image from 'next/image';
 import React from 'react';
-import Livestock from '../assets/Livestock.png';
-import Garden from '../assets/Garden.png';
-import FreshFruit from '../assets/FreshFruit.png';
-import Vegetables from '../assets/Vegetables.png';
-import Wheats from '../assets/Wheats.png';
-import AgroMachine from '../assets/AgroMachine.png';
+import Fruits from '../assets/Fruits.svg';
+import Spices from '../assets/Spices.svg';
+import Cereals from '../assets/Cereals.svg';
+import Vegetables from '../assets/Vegetables.svg';
+import Pulses from '../assets/Pulses.svg';
+import Condiments from '../assets/Condiments.svg';
 
 const SpecialOffers = () => {
   const categories = [
-    { id: 1, title: "Fruits", icon: Livestock },
+    { id: 1, title: "Fruits", icon: Fruits },
     { id: 2, title: "Vegetables", icon: Vegetables },
-    { id: 3, title: "Cereals", icon: FreshFruit },
-    { id: 4, title: "Pulses", icon: Wheats },
-    { id: 5, title: "Spices", icon: Garden },
-    { id: 6, title: "Condiments", icon: AgroMachine },
+    { id: 3, title: "Cereals", icon: Cereals },
+    { id: 4, title: "Pulses", icon: Pulses },
+    { id: 5, title: "Spices", icon: Spices },
+    { id: 6, title: "Condiments", icon: Condiments },
   ];
 
   return (
