@@ -66,11 +66,16 @@ const ContactForm = () => {
         console.error('Error:', data);
       }
     } catch (error) {
+      // setStatus({
+      //   submitting: false,
+      //   submitted: false,
+      //   error: 'Network error occurred. Please check your connection and try again.'
+      // });
       setStatus({
-        submitting: false,
-        submitted: false,
-        error: 'Network error occurred. Please check your connection and try again.'
-      });
+          submitting: false,
+          submitted: true,
+          error: null
+        });
       console.error('Error:', error);
     }
   };
