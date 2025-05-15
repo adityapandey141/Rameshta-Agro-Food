@@ -134,12 +134,7 @@ const ContactForm = () => {
             <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
               <p className="font-bold">Message sent successfully!</p>
               <p>Thank you for contacting us. We will get back to you soon.</p>
-              <button
-                className="mt-3 bg-green-500 text-white py-1 px-4 rounded hover:bg-green-600 transition"
-                onClick={() => setStatus({ submitting: true, submitted: false, error: null })}
-              >
-                Send another message
-              </button>
+            
             </div>
           ) : (
             <form onSubmit={handleSubmit}>

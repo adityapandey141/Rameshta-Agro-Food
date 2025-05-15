@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import AgroLogo from "../assets/AgroLogo.jpg";
+import RameshtaOrganicsLogo from "../assets/RameshtaOrganicsLogo.png";
 import { FaPhoneAlt, FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { IoLocationSharp } from 'react-icons/io5';
@@ -15,10 +15,10 @@ const Footer = () => {
           <div className="mb-6 md:mb-0">
             <div className="flex items-center space-x-4">
               <Image
-                src={AgroLogo}
+                src={RameshtaOrganicsLogo}
                 alt="Logo"
-                width={100}
-                height={100}
+                width={200}
+                height={200}
                 className="object-contain "
                 priority
               />
@@ -36,17 +36,17 @@ const Footer = () => {
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/about-us" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/#about" className="hover:text-yellow-500 transition duration-300 text-xl">
                   About Us
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/why-choose" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/#whyus" className="hover:text-yellow-500 transition duration-300 text-xl">
                   WhyChoose
                 </a>
               </li>
               <li className="mb-2">
-                <a href="/founder" className="hover:text-yellow-500 transition duration-300 text-xl">
+                <a href="/#founder" className="hover:text-yellow-500 transition duration-300 text-xl">
                   Founders
                 </a>
               </li>

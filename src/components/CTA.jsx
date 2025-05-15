@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import AgroLogo from "../assets/AgroLogo.jpg";
+import RameshtaOrganicsLogo from "../assets/RameshtaOrganicsLogo.png";
 import ReadytoDig from "../assets/ReadytoDig.jpg"; 
 
 const CTA = () => {
@@ -13,14 +13,14 @@ const CTA = () => {
       <div className="max-w-7xl mx-auto px-4 py-12 sm:py-16 md:py-20 flex flex-col md:flex-row items-center justify-between">
 
         <div className="md:w-1/2 space-y-6 z-10 text-center md:text-left">
-          <div className="w-30 h-30 flex items-center justify-center p-4 mx-auto md:mx-0">
+          <div className=" flex items-start justify-start">
             <div className="relative">
               <Image
-                src={AgroLogo}
+                src={RameshtaOrganicsLogo}
                 alt="Logo"
-                width={90}
-                height={90}
-                className="object-contain"
+                width={300}
+                height={300}
+                className=""
               />
             </div>
           </div>
