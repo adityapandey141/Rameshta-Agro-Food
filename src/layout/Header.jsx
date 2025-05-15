@@ -90,7 +90,7 @@ const Header = () => {
         </nav>
 
         <div className="hidden md:block">
-          <Link href="/contact-us" className="bg-yellow-400 hover:bg-orange-500 text-gray-800 font-medium py-2 px-4 rounded transition-all duration-300 hover:shadow-md text-sm lg:text-base">
+          <Link href="/contact-us" className="bg-yellow-400 hover:bg-orange-500 text-gray-800 font-medium py-3 px-4 rounded transition-all duration-300 hover:shadow-md text-sm lg:text-base">
             GET IN TOUCH
           </Link>
         </div>

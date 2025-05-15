@@ -13,12 +13,12 @@ const HeroSection = () => {
           src={ORGANICLOGO}
           alt="Agro"
           fill
-          className="object-cover"
+          className="object-cover opacity-90"
           priority
         />
       </div>
 
-      <div className="absolute inset-0 bg-black/30 z-10" />
+      <div className="absolute inset-0 bg-black/50 z-10" />
 
       
       <div className="relative z-20 flex flex-col justify-center text-white text-center h-full px-4 sm:px-6 md:px-10 lg:px-16">

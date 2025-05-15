@@ -121,8 +121,8 @@ const ContactForm = () => {
 
     
       <div className="mb-8 text-center md:text-left">
-        <h2 className="text-4xl font-bold text-lime-600 mb-2">Let’s Build Something Organic</h2>
-        <p className="text-gray-600 text-xl">
+        <h2 className="text-3xl font-bold text-black mb-2">Let’s Build Something Organic</h2>
+        <p className="text-gray-600 text-lg">
           No bots. No auto-replies. Just real people ready to chat. Drop your message below and we’ll get back to you soon.
         </p>
       </div>

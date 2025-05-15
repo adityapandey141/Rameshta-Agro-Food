@@ -25,7 +25,7 @@ const SpecialOffers = () => {
         REAL FOOD. ROOTED 
         IN PURPOSE.
         </h2>
-        <p className="text-gray-600 text-lg font-semibold max-w-3xl mx-auto">
+        <p className="text-gray-600 text-lg  max-w-3xl mx-auto">
           Every grain, every veggie, every spice — grown with care and a commitment to clean, chemical-free farming.
         </p>
       </div>
