@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import RameshtaOrganicsLogo from "../assets/RameshtaOrganicsLogo.png";
+import RameshtaOrganicsLogo1 from "../assets/RameshtaOrganicsLogo1.png";
 import ReadytoDig from "../assets/ReadytoDig.jpg"; 
 
 const CTA = () => {
@@ -12,11 +12,11 @@ const CTA = () => {
     <div className="relative w-full bg-gray-100 flex items-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:py-16 md:py-20 flex flex-col md:flex-row items-center justify-between">
 
-        <div className="md:w-1/2 space-y-6 z-10 text-center md:text-left">
+        <div className="md:w-1/2 space-y-6 z-1 text-center md:text-left">
           <div className=" flex items-start justify-start">
             <div className="relative">
               <Image
-                src={RameshtaOrganicsLogo}
+                src={RameshtaOrganicsLogo1}
                 alt="Logo"
                 width={300}
                 height={300}
@@ -26,9 +26,10 @@ const CTA = () => {
           </div>
 
           <div>
-            <h1 className="text-3xl  font-bold text-black">
+             <h2 className="text-3xl  font-bold text-black mb-3">
               Ready to Dig In?
-            </h1>
+              </h2>
+            
             <p className="text-gray-600 mt-4 max-w-md text-lg mx-auto md:mx-0">
               Whether you’re looking to farm better, buy better, or invest in something that matters, we’re here.
             </p>
