@@ -24,15 +24,22 @@ export default function AboutSection() {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-10 lg:gap-12">
 
           <div className="w-full lg:w-1/3 text-center lg:text-left space-y-6 sm:space-y-8">
-            <h2 className="text-3xl  font-bold text-black">We Stand with Farmers. And the Future.</h2>
-            <h3 className="text-gray-600 text-xl font-semibold ">
-             Who We Are
-            </h3>
-            <Link href="/contact-us">
-              <div className="inline-block border-2 border-yellow-400 text-sm text-gray-700  py-2 px-6 sm:px-8 rounded-full hover:bg-yellow-400 hover:text-white transition duration-300 cursor-pointer">
-                MORE ABOUT 
-              </div>
-            </Link>
+          <h2 className="text-3xl text-black mb-3 font-poppins font-bold">
+            We Stand with Farmers. And the Future.
+          </h2>
+
+          <h3 className="text-2xl text-black mb-3 font-poppins font-semibold">
+            Who We Are
+          </h3>
+
+          <Link
+            href="/contact-us"
+            className="mt-4 inline-block px-6 md:px-8 py-2 md:py-3 border-2 border-grey-900 text-black rounded-full hover:bg-green-600 hover:text-white transition-all duration-300 text-lg md:text-2xl"
+          >
+            MORE ABOUT
+          </Link>
+
+
           </div>
 
           <div className="w-full lg:w-1/3 flex justify-center">
@@ -51,12 +58,14 @@ export default function AboutSection() {
 
          
           <div className="w-full lg:w-1/3">
-            <p className="text-gray-700  text-base leading-relaxed text-center lg:text-left">
-              At Rameshta, we’re not just another agri-company; we’re a movement that puts the farmer first. We roll up our sleeves, walk into the fields, and build organically from the ground up. From fair pricing to end-to-end support, we do the hard work so our farmers can thrive — and so can your plate.
-            </p>
+                      
+          <p className="text-gray-600 text-xl max-w-3xl mx-auto font-roboto">
+            At Rameshta, we’re not just another agri-company; we’re a movement that puts the farmer first. We roll up our sleeves, walk into the fields, and build organically from the ground up...
+          </p>
           </div>
         </div>
       </div>
     </section>
   );
 }
+

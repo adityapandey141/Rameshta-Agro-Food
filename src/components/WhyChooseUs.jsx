@@ -32,14 +32,14 @@ const offerCategories = [
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-16 px-4 max-w-7xl mx-auto " id='whyus'>
+    <section className="py-16 px-4 max-w-7xl mx-auto font-roboto" id="whyus">
       <div className="text-center mb-12">
-        <h2 className="text-3xl text-black font-bold mb-4">
-         The Rameshta Advantage
+        <h2 className="text-3xl text-black font-bold mb-4 font-poppins">
+          The Rameshta Advantage
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         {offerCategories.map((category, index) => (
           <div key={index} className="flex items-start space-x-4">
             <div className="w-16 h-16 flex-shrink-0 relative">
@@ -51,8 +51,12 @@ const WhyChooseUs = () => {
               />
             </div>
             <div>
-              <h3 className="text-xl font-semibold mb-4">{category.title}</h3>
-              <p className="text-gray-600">{category.description}</p>
+              <h3 className="text-xl font-semibold mb-4 font-poppins">
+                {category.title}
+              </h3>
+              <p className="text-gray-600 text-lg font-roboto">
+                {category.description}
+              </p>
             </div>
           </div>
         ))}
