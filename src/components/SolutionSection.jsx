@@ -1,8 +1,8 @@
 "use client";
 
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 import TrainingKnowledgeSharing from "../assets/TrainingKnowledgeSharing.jpg";
 import QualityResourcesInfrastructure from "../assets/QualityResourcesInfrastructure.jpg";
@@ -12,52 +12,52 @@ const BlogPosts = [
   {
     id: 1,
     date: { day: 1 },
-    title: 'Training & Knowledge Sharing',
+    title: "Training & Knowledge Sharing",
     excerpt:
-      'We empower farmers through practical training programs that make transitioning to organic farming seamless and effective.',
+      "We empower farmers through practical training programs that make transitioning to organic farming seamless and effective.",
     image: TrainingKnowledgeSharing,
-    slug: 'tips-for-ripening-fruit',
+    slug: "tips-for-ripening-fruit",
   },
   {
     id: 2,
     date: { day: 2 },
-    title: 'Quality Resources & Infrastructure',
+    title: "Quality Resources & Infrastructure",
     excerpt:
-      'From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need.',
+      "From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need.",
     image: QualityResourcesInfrastructure,
-    slug: 'health-benefits-raw-food',
+    slug: "health-benefits-raw-food",
   },
   {
     id: 3,
     date: { day: 3 },
-    title: 'Fair Trade & Market Access',
+    title: "Fair Trade & Market Access",
     excerpt:
-      'We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices.',
+      "We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices.",
     image: FairTradeMarketAccess,
-    slug: 'superfoods-you-should-be-eating',
+    slug: "superfoods-you-should-be-eating",
   },
 ];
 
 const SolutionSection = () => {
   return (
-    <section className="max-w-7xl mx-auto bg-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 font-roboto">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold mb-4 text-black font-poppins">
+    <section className="w-full relative py-12 px-5 md:px-35  md:py-12 overflow-hidden">
+      <div className="md:text-center mb-4 md:mb-12">
+        <p className="text-gray-600 text-base md:text-xl max-w-3xl mx-auto font-normal">
+          What We Do
+        </p>
+        <h2 className="text-3xl md:text-5xl font-bold  mt-2 md:mt-4 md:mb-4 ">
           Support That’s More Than Just Talk
         </h2>
-        <h3 className="text-gray-600 text-xl font-semibold max-w-3xl mx-auto font-poppins">
-          What We Do
-        </h3>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {BlogPosts.map((post) => (
           <div
             key={post.id}
             className="bg-white shadow-md rounded-md overflow-hidden transition duration-300 group hover:shadow-lg"
           >
             <div className="relative w-full h-56 sm:h-60 lg:h-72">
-              <div className="absolute top-0 left-0 bg-yellow-300 text-center p-2 w-16 h-16 flex flex-col justify-center z-20">
+              <div className="absolute top-0 left-0 bg-yellow-300 text-center p-1 w-16 h-16 flex flex-col justify-center z-20">
                 <span className="text-2xl font-bold font-poppins">
                   {post.date.day}
                 </span>
@@ -72,15 +72,12 @@ const SolutionSection = () => {
               />
             </div>
 
-            <div className="p-6 transition duration-300 ease-in-out">
-              <Link href={`/blog/${post.slug}`}>
-                <h3 className="text-xl sm:text-2xl font-bold mb-3 text-gray-800 group-hover:text-yellow-500   font-poppins">
-                  {post.title}
-                </h3>
-              </Link>
-              <p className="text-gray-600 text-lg mb-6  font-roboto">
-                {post.excerpt}
-              </p>
+            <div className=" p-2 md:p-4 transition duration-300 ease-in-out">
+              <h3 className="text-2xl md:text-3xl font-bold mb-3 text-gray-800    font-poppins">
+                {post.title}
+              </h3>
+
+              <p className="text-gray-600  mb-6  font-roboto">{post.excerpt}</p>
             </div>
           </div>
         ))}

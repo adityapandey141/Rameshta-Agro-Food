@@ -1,1 +1,12 @@
 @import "tailwindcss";
+/* #4F631F - dg */
+
+/* #848B27 - lg */
+
+/* #5E2902 - br */
+@theme {
+  --color-dg: #4f631f;
+  --color-lg: #848b27;
+  --color-br: #5e2902;
+  --color-ltext: #878986;
+}
