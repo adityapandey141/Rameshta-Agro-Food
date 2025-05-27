@@ -1,12 +1,45 @@
 "use client";
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import ORGANICLOGO from "../assets/ORGANICLOGO.jpg";
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import ORGANICLOGO from "../assets/Rameshta Agro.webp";
+import { useState, useEffect } from "react";
 
 const HeroSection = () => {
+  const words = ["ITH YOU.", "ITH US."];
+
+  const [text, setText] = useState("");
+  const [wordIndex, setWordIndex] = useState(0);
+  const [charIndex, setCharIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    const currentWord = words[wordIndex];
+    const typingSpeed = isDeleting ? 50 : 100;
+
+    const timeout = setTimeout(() => {
+      if (!isDeleting) {
+        setText(currentWord.substring(0, charIndex + 1));
+        setCharIndex(charIndex + 1);
+
+        if (charIndex + 1 === currentWord.length) {
+          setTimeout(() => setIsDeleting(true), 1000);
+        }
+      } else {
+        setText(currentWord.substring(0, charIndex - 1));
+        setCharIndex(charIndex - 1);
+
+        if (charIndex - 1 === 0) {
+          setIsDeleting(false);
+          setWordIndex((wordIndex + 1) % words.length);
+        }
+      }
+    }, typingSpeed);
+
+    return () => clearTimeout(timeout);
+  }, [charIndex, isDeleting, wordIndex]);
   return (
-    <div className="relative w-full h-[90vh] mb-20 overflow-hidden">
+    <div className="relative w-full h-[80vh] md:h-[90vh] mb-20 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src={ORGANICLOGO}
@@ -17,28 +50,27 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="absolute inset-0 bg-black/30 z-10" />
+      <div className="absolute inset-0 bg-black/35 z-10" />
 
       <div className="relative z-20 flex flex-col justify-center text-white text-center h-full px-4 sm:px-6 md:px-10 lg:px-16">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-6 font-bold font-poppins leading-tight max-w-3xl mx-auto">
-            ORGANIC STARTS HERE. <b/>WITH US. WITH YOU.
+          <h1 className="text-5xl md:text-7xl text-white font-[600]">
+            ORGANIC STARTS HERE. <br />
+            <span className="font-[900]  px-5 mt-5"> W{text}</span>
           </h1>
 
-          <p className="mb-8 text-2xl max-w-2xl font-roboto">
-            At Rameshta Agro, we back the farmers, skip the middlemen, and make organic farming a win for everyone.
-            Cleaner soil. Healthier food. Fairer trade.
+          <p className="mb-8 text-md max-w-2xl font-roboto">
+            At Rameshta Agro, we back the farmers, skip the middlemen, and make
+            organic farming a win for everyone. Cleaner soil. Healthier food.
+            Fairer trade.
           </p>
 
           <Link href="/contact-us">
-            <button
-              className="px-6 py-4 bg-[#16A34A] text-white text-[18.8px] leading-[25px] font-bold font-raleway rounded-[25px] hover:bg-[#128038] transition-all duration-300 w-[331px] h-[61px] text-center"
-            >
+            <button className="px-6 py-3 bg-dg text-white text-md  font-bold rounded-[8px] hover:bg-lg transition-all duration-300  text-center cursor-pointer">
               LET’S GROW BETTER
             </button>
           </Link>
         </div>
-        
       </div>
     </div>
   );
