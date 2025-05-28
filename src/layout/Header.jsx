@@ -65,14 +65,14 @@ const Header = () => {
           >
             HOME
           </Link>
-          <a href="#about" className="text-gray-600 hover:text-lg">
+          <a href="#about-us" className="text-gray-600 hover:text-lg">
             ABOUT US
           </a>
-          <a href="#products" className="text-gray-600 hover:text-lg">
-            PRODUCT
+          <a href="#why-us" className="text-gray-600 hover:text-lg">
+            WHY US
           </a>
-          <a href="#quality" className="text-gray-600 hover:text-lg">
-            QUALITY
+          <a href="#services" className="text-gray-600 hover:text-lg">
+            SERVICES
           </a>
           <Link href="/contact-us" className="text-gray-600 hover:text-lg">
             CONTACT
@@ -122,7 +122,7 @@ const Header = () => {
         style={{ top: isScrolled ? "80px" : "80px" }}
       >
         <div className="px-4 py-3 space-y-3 text-gray-800 font-sans font-medium">
-          {["/", "/about-us", "/product", "/quality", "/contact-us"].map(
+          {["/", "/about-us", "/#services", "/#why-us", "/contact-us"].map(
             (path, i) => (
               <Link
                 key={i}
@@ -132,7 +132,11 @@ const Header = () => {
               >
                 {path === "/"
                   ? "HOME"
-                  : path.replace("/", "").toUpperCase().replace("-", " ")}
+                  : path
+                      .replace("/", "")
+                      .replace("#", "")
+                      .toUpperCase()
+                      .replace("-", " ")}
               </Link>
             )
           )}

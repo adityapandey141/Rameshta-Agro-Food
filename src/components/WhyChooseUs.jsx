@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
   return (
     <section
       className="py-5 md:py-12 px-5 max-w-7xl mx-auto font-roboto"
-      id="whyus"
+      id="why-us"
     >
       <div className="md:text-center mb-5 md:mb-12">
         <h2 className="text-3xl md:text-5xl  font-bold md:mb-4 ">
