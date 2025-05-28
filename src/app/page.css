@@ -1,33 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap");
-/* .animatedImage{
-    background-image: url("../assets/special.jpg");
-    background-clip: text;
-    text-fill-color: transparent;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-animation-name: masked-animation;
-    animation-name: masked-animation;
-    -webkit-animation-duration: 10s;
-    animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-    line-height: 1.2;
-    font-weight: 900;
-    font-family: Raleway, sans-serif;
-    text-transform: uppercase;
-    color: #333;
+
+.animatedImage {
+  background-image: url("../assets/special_offer_text_bg.png");
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation-name: masked-animation;
+  animation-name: masked-animation;
+  -webkit-animation-duration: 10s;
+  animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  line-height: 1.2;
+  font-weight: 900;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  color: #333;
 }
 
 @keyframes masked-animation {
-    0%, 100% {
-        background-position: 50% 35%;
-    }
-    50% {
-        background-position: 50% 65%;
-    }
-} */
+  0%,
+  100% {
+    background-position: 50% 35%;
+  }
+  50% {
+    background-position: 50% 65%;
+  }
+}
 html,
 body {
   margin: 0;

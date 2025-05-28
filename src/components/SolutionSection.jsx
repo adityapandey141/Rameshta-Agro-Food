@@ -14,7 +14,7 @@ const BlogPosts = [
     date: { day: 1 },
     title: "Training & Knowledge Sharing",
     excerpt:
-      "We empower farmers through practical training programs that make transitioning to organic farming seamless and effective.",
+      "We empower farmers through practical training programs that make transitioning to organic farming seamless and effective. Our experts share both traditional wisdom and modern sustainable practices.",
     image: TrainingKnowledgeSharing,
     slug: "tips-for-ripening-fruit",
   },
@@ -23,7 +23,7 @@ const BlogPosts = [
     date: { day: 2 },
     title: "Quality Resources & Infrastructure",
     excerpt:
-      "From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need.",
+      "From premium organic seeds to natural fertilisers, we ensure farmers can access everything they need. Our support spans the entire journey, from soil preparation to storage solutions that preserve freshness and quality.",
     image: QualityResourcesInfrastructure,
     slug: "health-benefits-raw-food",
   },
@@ -32,7 +32,7 @@ const BlogPosts = [
     date: { day: 3 },
     title: "Fair Trade & Market Access",
     excerpt:
-      "We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices.",
+      "We eliminate middlemen and connect farmers directly to markets, ensuring they receive fair prices for their hard work. Our transparent pricing mechanisms provide stability and encourage long-term commitment to organic practices.",
     image: FairTradeMarketAccess,
     slug: "superfoods-you-should-be-eating",
   },
@@ -40,7 +40,10 @@ const BlogPosts = [
 
 const SolutionSection = () => {
   return (
-    <section className="w-full relative py-12 px-5 md:px-35  md:py-12 overflow-hidden">
+    <section
+      className="w-full relative py-12 px-5 md:px-35  md:py-12 overflow-hidden"
+      id="services"
+    >
       <div className="md:text-center mb-4 md:mb-12">
         <p className="text-gray-600 text-base md:text-xl max-w-3xl mx-auto font-normal">
           What We Do
@@ -77,7 +80,7 @@ const SolutionSection = () => {
                 {post.title}
               </h3>
 
-              <p className="text-gray-600  mb-6  font-roboto">{post.excerpt}</p>
+              <p className="text-gray-600 ">{post.excerpt}</p>
             </div>
           </div>
         ))}

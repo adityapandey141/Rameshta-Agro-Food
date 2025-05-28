@@ -19,10 +19,10 @@ const Founders = () => {
       bio: "She champions rural upliftment and fair trade, ensuring that sustainability never comes at the cost of the farmer. Her leadership is grounded in purpose and backed by action.",
     },
     {
-      name: "Sajjanben",
-      title: "Sajjanben Amaratbhai Parmar (Director)",
+      name: "Taliya Rameshbhai Bachubhai",
+      title: "Taliya Rameshbhai Bachubhai (Director)",
       image: Founder5,
-      bio: "She champions rural upliftment and fair trade, ensuring that sustainability never comes at the cost of the farmer. Her leadership is grounded in purpose and backed by action.",
+      bio: "Rameshbhai plays a key role in keeping things running smoothly. From planning to daily operations, he makes sure our support reaches farmers on time and in the right way. Reliable, practical, and always focused on the bigger picture.",
     },
   ];
 
