@@ -9,7 +9,7 @@ export default function AboutSection() {
   return (
     <section
       className="w-full relative py-10  md:py-20 px-5 md:px-35 overflow-hidden "
-      id="about"
+      id="about-us"
     >
       <div className="absolute inset-0 z-0 opacity-10 pointer-events-none">
         <Image src={TImage} alt="Agro" fill className="object-cover" priority />

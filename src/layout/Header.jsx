@@ -122,7 +122,7 @@ const Header = () => {
         style={{ top: isScrolled ? "80px" : "80px" }}
       >
         <div className="px-4 py-3 space-y-3 text-gray-800 font-sans font-medium">
-          {["/", "/about-us", "/#services", "/#why-us", "/contact-us"].map(
+          {["/", "/#about-us", "/#services", "/#why-us", "/contact-us"].map(
             (path, i) => (
               <Link
                 key={i}
