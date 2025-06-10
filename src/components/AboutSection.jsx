@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import WHOWEARE from "../assets/WHOWEARE.jpg";
+import WHOWEARE from "../assets/We Stand with Farmers. And the Future.webp";
 import TImage from "../assets/TImage.jpg";
 
 export default function AboutSection() {
