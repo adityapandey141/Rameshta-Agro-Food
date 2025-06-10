@@ -1,28 +1,29 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Founder4 from "../assets/Founder4.jpg";
-import Founder5 from "../assets/Founder5.jpg";
+import Founder1 from "../assets/Mukesh Fatepara.webp";
+import Founder2 from "../assets/Sajjanben.webp";
+import Founder3 from "../assets/Ramesh Italiya.webp";
 
 const Founders = () => {
   const teamMembers = [
     {
       name: "Mukeshkumar",
-      title: "Mukeshkumar Natvarlal Fatepura (Director)",
-      image: Founder4,
-      bio: "Mukeshkumar leads Rameshta with a mission to rebuild Indian agriculture. He’s a hands-on change-maker, driving innovation, farmer empowerment, and strategic growth.",
+      title: "Mukesh Fatepura (Director)",
+      image: Founder1,
+      bio: "Mr. Mukesh leads Rameshta with a mission to rebuild Indian agriculture. He’s a hands-on change-maker, driving innovation, farmer empowerment, and strategic growth.",
     },
     {
       name: "Sajjanben",
-      title: "Sajjanben Amaratbhai Parmar (Director)",
-      image: Founder5,
+      title: "Sajjan Parmar (Director)",
+      image: Founder2,
       bio: "She champions rural upliftment and fair trade, ensuring that sustainability never comes at the cost of the farmer. Her leadership is grounded in purpose and backed by action.",
     },
     {
-      name: "Taliya Rameshbhai Bachubhai",
+      name: "Ramesh Italiya (Director)",
       title: "Taliya Rameshbhai Bachubhai (Director)",
-      image: Founder5,
-      bio: "Rameshbhai plays a key role in keeping things running smoothly. From planning to daily operations, he makes sure our support reaches farmers on time and in the right way. Reliable, practical, and always focused on the bigger picture.",
+      image: Founder3,
+      bio: "He plays a key role in keeping things running smoothly. From planning to daily operations, he makes sure our support reaches farmers on time and in the right way.",
     },
   ];
 
@@ -43,13 +44,13 @@ const Founders = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {teamMembers.map((member, index) => (
-            <div key={index} className="text-center group bg-white pb-3">
-              <div className="w-full h-70 relative rounded-lg overflow-hidden mb-4 ">
+            <div key={index} className="text-center group bg-white ">
+              <div className="w-full h-60 relative rounded-lg overflow-hidden mb-4 ">
                 <Image
                   src={member.image}
                   alt={member.name}
                   fill
-                  className="object-cover transition-transform duration-300 group-hover:scale-105 rounded-lg"
+                  className="object-contain transition-transform duration-300 group-hover:scale-105 rounded-lg"
                 />
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-black transition-colors duration-300 px-2">

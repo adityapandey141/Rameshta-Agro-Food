@@ -4,7 +4,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import ReadytoDig from "../assets/ReadytoDig.jpg";
+import ReadytoDig from "../assets/Ready to Dig In.webp";
 
 const CTA = () => {
   return (

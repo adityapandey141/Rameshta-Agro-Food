@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ORGANICLOGO from "../assets/Rameshta Agro.webp";
+import ORGANICLOGO from "../assets/Home Banner.webp";
 import { useState, useEffect } from "react";
 
 const HeroSection = () => {
@@ -50,7 +50,7 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="absolute inset-0 bg-black/35 z-10" />
+      <div className="absolute inset-0 bg-black/65 z-10" />
 
       <div className="relative z-20 flex flex-col justify-center text-white text-center h-full px-4 sm:px-6 md:px-10 lg:px-16">
         <div className="flex flex-col items-center justify-center">
@@ -59,10 +59,10 @@ const HeroSection = () => {
             <span className="font-[900]  px-5 mt-5"> W{text}</span>
           </h1>
 
-          <p className="mb-8 text-md max-w-2xl font-roboto">
-            At Rameshta Agro, we back the farmers, skip the middlemen, and make
-            organic farming a win for everyone. Cleaner soil. Healthier food.
-            Fairer trade.
+          <p className="mb-8 text-xl max-w-2xl font-roboto">
+            <span className="text-xl font-900 bg-lg">At Rameshta Agro</span> we
+            back the farmers, skip the middlemen, and make organic farming a win
+            for everyone. Cleaner soil. Healthier food. Fairer trade.
           </p>
 
           <Link href="/contact-us">

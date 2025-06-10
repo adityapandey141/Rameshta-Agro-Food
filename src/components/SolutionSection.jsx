@@ -7,6 +7,7 @@ import Image from "next/image";
 import TrainingKnowledgeSharing from "../assets/TrainingKnowledgeSharing.jpg";
 import QualityResourcesInfrastructure from "../assets/QualityResourcesInfrastructure.jpg";
 import FairTradeMarketAccess from "../assets/FairTradeMarketAccess.jpg";
+import Laboratory from "../assets/Laboratory image.webp";
 
 const BlogPosts = [
   {
@@ -36,6 +37,15 @@ const BlogPosts = [
     image: FairTradeMarketAccess,
     slug: "superfoods-you-should-be-eating",
   },
+  {
+    id: 4,
+    date: { day: 4 },
+    title: "Soil Laboratory",
+    excerpt:
+      "Healthy crops start with healthy soil. That’s why we offer free soil testing for farmers with a government farming card because the government covers the cost, and we make sure the benefit reaches the right hands. Smarter farming starts with knowing your land.",
+    image: Laboratory,
+    slug: "superfoods-you-should-be-eating",
+  },
 ];
 
 const SolutionSection = () => {
@@ -53,13 +63,13 @@ const SolutionSection = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
         {BlogPosts.map((post) => (
           <div
             key={post.id}
             className="bg-white shadow-md rounded-md overflow-hidden transition duration-300 group hover:shadow-lg"
           >
-            <div className="relative w-full h-56 sm:h-60 lg:h-72">
+            <div className="relative w-full h-56 sm:h-60 lg:h-60">
               <div className="absolute top-0 left-0 bg-yellow-300 text-center p-1 w-16 h-16 flex flex-col justify-center z-20">
                 <span className="text-2xl font-bold font-poppins">
                   {post.date.day}
